@@ -1,0 +1,26 @@
+
+.selection div{
+    background-color: antiquewhite;
+    color: black;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 40px;
+}
+.header a{
+    background-color: red;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: beige;
+}
+.header{
+    padding: 10px;
+    text-align: center;
+}
+.footer{
+    background-color: gray;
+    margin: 10px auto;
+    width: 75%;
+    height: 30%;
+}

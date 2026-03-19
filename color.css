@@ -1,0 +1,40 @@
+/* tagName{
+    property: value;
+} */
+ body{
+    /* background-color: grey; */
+    /* background-color: rgb(128, 128, 128); */
+    /* background-color: #808080; */
+    /* background-color: #rgb <=> 0-9 a-f; */
+    background-color: #888;
+ }
+ p{
+    background-color: lightgrey;
+    color: darkred;   
+    /* w80%  */
+    width: 80%;
+    /* h100 */
+    /* height: 100px; */
+    /* m10 jak jest 1 wartość to wszystkie 4 przyjmują tą wartość*/
+    /* margin: 10px; */
+    /* m10-20  10-top, 20-right bottom=top left=right jak są 2 wartości to pozostałe przyjmują odbicie */
+    /* margin: 10px 20px; */
+    /* m10-a wyśrodkuje teksty */
+    margin: 10px auto;
+    /* ml10  tylok lewy margines*/
+    /* margin-left: 10px; */
+ }
+ .cont
+ {
+   text-align: justify;
+ }
+ .cont div{
+   background-color: rgb(179, 130, 179);
+   margin: 10px;
+   border: 10px cornflowerblue solid ;
+   border-radius: 20px;
+   padding: 5px;
+ }
+ span{
+   border-bottom: 5px darkblue dotted;
+ }

@@ -1,0 +1,16 @@
+.c2{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 500px;
+    height: 100px auto;
+    margin: 20px auto;
+}
+.b1{
+width: 100px;
+height: 100px;
+}
+.b{
+    background-color:black;
+    color: white;
+}

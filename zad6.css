@@ -7,6 +7,8 @@
 }
 .block{
     /* border: 2px solid #000; */
+    background: #00a;
+    color: #ffffff;
     width: var(--block);
     height: var(--block);
     text-align: center;
@@ -75,13 +77,14 @@ button{
     } */
 
 .block2{
-    width: var(--block2);
-    height: var(--block2);
+    width: var(--block);
+    height: var(--block);
     text-align: center;
-    line-height: var(--block2);
-    animation: anim2 5s ease infinite;
+    line-height: var(--block);
+    animation: anim2 5s infinite;
     border-radius: 50%;
-    margin: 20px auto;
+    margin: 2px auto;
+    border: 2px solid rebeccapurple;
 
 }
 @keyframes anim2 {

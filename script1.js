@@ -1,8 +1,12 @@
-function bth_anim{
+function bth_anim () {
     let anim = document.getElementById("anim")
     anim.style.animation = "none"
 }
-function bth_anim2{
-    let anim2 = document.getElementById("anim2")
-    anim.style
+var anim2 = document.getElementById("anim2")
+     anim2 = document.getElementById("anim2")
+    anim2.onmouseover =function () {
+        anim2.style.animationPlayState = "paused"
+    }
+anim2.onmouseout = function () {
+    anim2.style.animationPlayState = "running"
 }

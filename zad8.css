@@ -1,0 +1,41 @@
+form{
+    text-align: center;
+}
+.container{
+    background-color: bisque;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 30px auto;
+    width: 70vw;
+    min-height: 60vh;
+}
+.container1 div{
+    margin: 10px;
+}
+.cookies{
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 20px 0;
+    width: 90%;
+    border-radius: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 5vw;
+    opacity: .8;
+}
+.cookies .btn{
+    background-color: rgb(199, 15, 15);
+    color: #ffffff;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+.cookies .btn:hover{
+    cursor: pointer;
+}
